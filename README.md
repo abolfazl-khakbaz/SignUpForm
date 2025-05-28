@@ -29,6 +29,6 @@ The code and structure remain true to the original project and are presented her
 ## 🚀 How to Run Locally
 
 ```bash
-git clone []
+git clone https://github.com/abolfazl-khakbaz/SignUpForm.git
 cd skill-development-website
 open index.html
