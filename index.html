@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/bcc4373204.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Edu+TAS+Beginner:wght@400..700&family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="courseTitle">Validation in Form on User Side</p>
+    <div class="container">
+      <form action="" autocomplete="off">
+        <input type="text" placeholder="Name" minlength="2" required/>
+        <input type="text" placeholder="Surname" minlength="2" required/>
+        <input type="email" placeholder="email" required/>
+        <input type="text" placeholder="Username" minlength="3" maxlength="15" required/>
+        <input type="password" placeholder="Password" required/>
+        <input type="date" min="2015-01-01" max="2026-01-01" required/>
+        <input type="range" min="18" max="30" required/>
+        <input type="url" placeholder="Your website address"/>
+        <button>Register</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  background-image: url(../img/e-bg.jpg);
+}
+.courseTitle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 150px 0 25px 0;
+  color: black;
+}
+
+.container{
+  margin:  auto;
+  max-width: 400px;
+  height: auto;
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.container form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.container form input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline-color: azure;
+}
+.container form button{
+  width: 5.625rem;
+  height: 2.5rem;
+  padding: 5px 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4896f0;
+  color: white;
+
+}
